@@ -1,3 +1,17 @@
 {
-  "recommendations": ["esbenp.prettier-vscode"]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "ritwickdey.liveserver",
+    "ecmel.vscode-html-css",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "sidthesloth.html5-boilerplate",
+    "zainchen.json",
+    "anseki.vscode-color",
+    "kamikillerto.vscode-colorize",
+    "dzhavat.bracket-pair-toggler",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "bierner.github-markdown-preview"
+  ]
 }
