@@ -1,0 +1,1047 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  -webkit-text-size-adjust: none;
+}
+mark {
+  background-color: transparent;
+  color: inherit;
+}
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input[type='text'],
+input[type='email'],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1;
+  min-height: var(--viewport-height);
+  min-width: 320px;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  background-color: #f8f4f1;
+}
+body:before {
+  background-attachment: scroll;
+  content: '';
+  display: block;
+  height: var(--background-height);
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transform: scale(1);
+  width: 100vw;
+  z-index: 0;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%22384%22%20height%3D%22216%22%20viewBox%3D%220%200%20384%20216%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cstyle%20type%3D%22text%2Fcss%22%3E%20rect%20%7B%20fill%3A%20rgba(74,74,74,0.141)%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%222%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226250ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22753ms%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226250ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22753ms%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226250ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22753ms%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226250ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22753ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226250ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22753ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2%3B0.9%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22771ms%22%20values%3D%220%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22771ms%22%20values%3D%222%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22771ms%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22771ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22771ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4%3B0.9%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22298ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%3B0.7%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22298ms%22%20values%3D%222%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22298ms%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22298ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22298ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218958ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22537ms%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218958ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22537ms%22%20values%3D%222%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218958ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22537ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218958ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22537ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218958ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22537ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22137ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%3B0.9%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22137ms%22%20values%3D%222%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22137ms%22%20values%3D%22170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22137ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22137ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%222%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212396ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22674ms%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.2%3B0.9%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212396ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22674ms%22%20values%3D%222%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212396ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22674ms%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212396ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22674ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212396ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22674ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22717ms%22%20values%3D%220%3B0%3B0%3B0.4%3B0.7%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22717ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22717ms%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22717ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22717ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22312ms%22%20values%3D%220%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22312ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22312ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22312ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22312ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22517ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22517ms%22%20values%3D%2226%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22517ms%22%20values%3D%2250%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22517ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22517ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22242ms%22%20values%3D%220%3B0%3B0%3B0.3%3B0.9%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22242ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22242ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22242ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22242ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2226%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219583ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.2%3B0.7%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219583ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%2226%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219583ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219583ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219583ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.8%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211979ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.8%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211979ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211979ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211979ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211979ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.8%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228854ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2290ms%22%20values%3D%220%3B0%3B0%3B0.3%3B0.7%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228854ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2290ms%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228854ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2290ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228854ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2290ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228854ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2290ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.2%3B0.9%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5%3B0.7%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2250%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22616ms%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.2%3B0.9%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22616ms%22%20values%3D%2250%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22616ms%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22616ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22616ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.2%3B0.8%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%222%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22727ms%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%3B0.7%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22727ms%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22727ms%22%20values%3D%2226%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22727ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22727ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.5%3B0.9%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2%3B0.9%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%220.5%3B0.8%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211667ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.2e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22250ms%22%20values%3D%220%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22250ms%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22250ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22250ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22250ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.2%3B0.8%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%22170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22728ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2274%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213438ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225104ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%220.5%3B0.8%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225104ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225104ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225104ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225104ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22497ms%22%20values%3D%220%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22497ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22497ms%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22497ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227292ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22497ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22569ms%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%3B0.9%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22569ms%22%20values%3D%2298%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22569ms%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22569ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22569ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2%3B0.8%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22694ms%22%20values%3D%220%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22694ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22694ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22694ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228125ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22694ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228333ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%3B0.9%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228333ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228333ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228333ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228333ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219167ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5%3B0.9%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219167ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219167ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219167ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219167ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2298%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22425ms%22%20values%3D%220.5%3B0.8%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22425ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22425ms%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22425ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22425ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2%3B0.9%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22489ms%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.5%3B0.9%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22489ms%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22489ms%22%20values%3D%2226%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22489ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22489ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225833ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5%3B0.7%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225833ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225833ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225833ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225833ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.2e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217396ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22396ms%22%20values%3D%220%3B0%3B0%3B0.3%3B0.7%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22396ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22396ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22396ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22396ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2265ms%22%20values%3D%220.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.2%3B0.8%3B0%3B0%3B0%3B0.2e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2265ms%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2265ms%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2265ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214063ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2265ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22654ms%22%20values%3D%220%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22654ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22654ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22654ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210000ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22654ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22150ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22150ms%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22150ms%22%20values%3D%22170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22150ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22150ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22122%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2291ms%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2291ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2291ms%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2291ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2291ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2269ms%22%20values%3D%220%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2269ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2269ms%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2269ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2269ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215938ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5%3B0.7%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215938ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215938ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215938ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215938ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210313ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22752ms%22%20values%3D%220%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210313ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22752ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210313ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22752ms%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210313ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22752ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210313ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22752ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22980ms%22%20values%3D%220%3B0%3B0%3B0.2%3B0.8%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22980ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22980ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22980ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210833ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22980ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.2%3B0.9%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%3B0.9%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226667ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%3B0.9%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226667ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226667ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226667ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226667ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22146%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225521ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22688ms%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225521ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22688ms%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225521ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22688ms%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225521ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22688ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225521ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22688ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228229ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%3B0.8%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216042ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.3%3B0.9%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216875ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22884ms%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22884ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22884ms%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22884ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22884ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2281ms%22%20values%3D%220.5%3B0.8%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2281ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2281ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2281ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2281ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22861ms%22%20values%3D%220%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22861ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22861ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22861ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214167ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22861ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22243ms%22%20values%3D%220.5%3B0.9%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22243ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22243ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22243ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218333ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22243ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217292ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.7%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217292ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217292ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217292ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217292ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22170%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.2%3B0.9%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2%3B0.8%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218854ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227188ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22424ms%22%20values%3D%220%3B0%3B0%3B0.4%3B0.7%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227188ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22424ms%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227188ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22424ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227188ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22424ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227188ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22424ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.3%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22442ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22442ms%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22442ms%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22442ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217083ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22442ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22930ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.4%3B0.9%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22930ms%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22930ms%22%20values%3D%2298%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22930ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22930ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212917ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4%3B0.9%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212917ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212917ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212917ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212917ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217708ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217708ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217708ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217708ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217708ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4%3B0.9%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216250ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22194%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2%3B0.9%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210625ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22204ms%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.4%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210625ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22204ms%22%20values%3D%22218%3B218%3B216%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210625ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22204ms%22%20values%3D%222%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210625ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22204ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210625ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22204ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22651ms%22%20values%3D%220%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22651ms%22%20values%3D%22218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B216%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22651ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22651ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22651ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%220%3B0%3B0%3B0.2%3B0.9%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%22218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B216%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.5%3B0.9%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B216%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22848ms%22%20values%3D%220%3B0%3B0%3B0.3%3B0.8%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22848ms%22%20values%3D%22218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B216%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22848ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22848ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22848ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227604ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2284ms%22%20values%3D%220%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.2%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227604ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2284ms%22%20values%3D%22218%3B218%3B218%3B218%3B218%3B216%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227604ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2284ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227604ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2284ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227604ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2284ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22772ms%22%20values%3D%220%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22772ms%22%20values%3D%22218%3B218%3B218%3B218%3B218%3B216%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22772ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22772ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22772ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.4%3B0.9%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22218%3B218%3B216%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22218%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22218%3B218%3B218%3B218%3B218%3B216%3B218%3B218%3B218%3B218%3B218%3B218%3B218%3B218%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4%3B0.9%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.4%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22242%3B242%3B242%3B242%3B242%3B242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214792ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2%3B0.7%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B240%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226771ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%3B0.7%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22496ms%22%20values%3D%220.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.2%3B0.7%3B0%3B0%3B0%3B0.2e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22496ms%22%20values%3D%22242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22496ms%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22496ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212708ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22496ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214896ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22870ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22870ms%22%20values%3D%22242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22870ms%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22870ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22870ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22928ms%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22928ms%22%20values%3D%22242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22928ms%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22928ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213750ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22928ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211146ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22242%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22242%3B242%3B242%3B242%3B242%3B240%3B242%3B242%3B242%3B242%3B242%3B242%3B242%3B242%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2%3B0.7%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22344ms%22%20values%3D%220%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22344ms%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22344ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22344ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213021ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22344ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%3B0.9%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215521ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.5%3B0.9%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%220ms%22%20values%3D%220.5%3B0.9%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%220ms%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%220ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%220ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214688ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%220ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218021ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2%3B0.9%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218021ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218021ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218021ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218021ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22266%3B266%3B264%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22206ms%22%20values%3D%220.3%3B0.8%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22206ms%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22206ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22206ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225938ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22206ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22266%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2214375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22890ms%22%20values%3D%220%3B0%3B0%3B0.2%3B0.7%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2214375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22890ms%22%20values%3D%22266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B266%3B264%3B266%3B266%3B266%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2214375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22890ms%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2214375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22890ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2214375ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22890ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.5%3B0.9%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B288%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225625ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.4%3B0.7%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22290%3B290%3B288%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229583ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22872ms%22%20values%3D%220%3B0%3B0%3B0.3%3B0.9%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22872ms%22%20values%3D%22290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B288%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22872ms%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22872ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210417ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22872ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22331ms%22%20values%3D%220.2%3B0.7%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22331ms%22%20values%3D%22290%3B290%3B290%3B290%3B290%3B290%3B290%3B288%3B290%3B290%3B290%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22331ms%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22331ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22331ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22290%3B290%3B288%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229479ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22158ms%22%20values%3D%220.4%3B0.8%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.4%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22158ms%22%20values%3D%22290%3B290%3B290%3B290%3B290%3B290%3B290%3B288%3B290%3B290%3B290%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22158ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22158ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226354ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22158ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.4%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22290%3B290%3B288%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211458ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229688ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2%3B0.9%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229688ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B288%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229688ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229688ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229688ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22290%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%229063ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4%3B0.9%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%229063ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B290%3B288%3B290%3B290%3B290%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%229063ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%229063ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%229063ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22998ms%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%3B0.8%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22998ms%22%20values%3D%22314%3B314%3B312%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22998ms%22%20values%3D%222%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22998ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216979ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22998ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225000ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225000ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B312%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225000ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225000ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225000ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B314%3B314%3B314%3B312%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212604ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B312%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213958ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212813ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.3%3B0.8%3B0%3B0%3B0%3B0.2e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212813ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B312%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212813ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2298%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212813ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212813ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2212188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.4%3B0.7%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2212188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B312%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2212188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2212188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2212188ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213125ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.5%3B0.8%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213125ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B312%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213125ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213125ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213125ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2213646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5%3B0.8%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2213646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B314%3B314%3B314%3B314%3B314%3B312%3B314%3B314%3B314%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2213646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2213646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2213646ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22314%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.5e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22314%3B314%3B312%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%3B314%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215104ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227083ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220.3%3B0.9%3B0%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.3%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227083ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227083ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227083ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227083ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217500ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217500ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217500ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217500ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217500ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2219271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.3%3B0.9%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2219271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2219271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2219271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2219271ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.3e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2218542ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%220.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.3e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2218542ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%22338%3B338%3B336%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2218542ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%2274%3B74%3B72%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2218542ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2218542ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2234ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2215208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2215208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2215208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%2298%3B98%3B98%3B98%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2215208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2215208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22720ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228750ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228750ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228750ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228750ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228750ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2%3B0.8%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225313ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%220.4%3B0.9%3B0%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.4%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210208ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22773ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22338%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.5%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2210729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22877ms%22%20values%3D%220.5%3B0.9%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2210729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22877ms%22%20values%3D%22338%3B338%3B338%3B338%3B338%3B338%3B338%3B336%3B338%3B338%3B338%3B338%3B338%3B338%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2210729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22877ms%22%20values%3D%22194%3B194%3B194%3B194%3B194%3B194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2210729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22877ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2210729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22877ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%222%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%220%3B0%3B0%3B0.2%3B0.8%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B360%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%222%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B2%3B0%3B2%3B2%3B2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228542ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22811ms%22%20values%3D%220%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.5%3B0.8%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22811ms%22%20values%3D%22362%3B362%3B362%3B362%3B362%3B360%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22811ms%22%20values%3D%2226%3B26%3B26%3B26%3B26%3B24%3B26%3B26%3B26%3B26%3B26%3B26%3B26%3B26%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22811ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227500ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22811ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%2250%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2216146ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22409ms%22%20values%3D%220%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%3B0%3B0%3B0.2%3B0.7%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2216146ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22409ms%22%20values%3D%22362%3B362%3B362%3B362%3B362%3B360%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2216146ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22409ms%22%20values%3D%2250%3B50%3B50%3B50%3B50%3B48%3B50%3B50%3B50%3B50%3B50%3B50%3B50%3B50%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2216146ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22409ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2216146ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22409ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%2274%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%227917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22342ms%22%20values%3D%220%3B0%3B0%3B0.4%3B0.8%3B0%3B0%3B0%3B0.2e0%3B0.9%3B1%3B0.9%3B0.2e0%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%227917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22342ms%22%20values%3D%22362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B360%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%227917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22342ms%22%20values%3D%2274%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B74%3B72%3B74%3B74%3B74%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%227917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22342ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%227917ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22342ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%2298%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2211771ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22962ms%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%3B0.7%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2211771ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22962ms%22%20values%3D%22362%3B362%3B360%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2211771ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22962ms%22%20values%3D%2298%3B98%3B96%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%3B98%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2211771ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22962ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2211771ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22962ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%22122%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.2%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%226563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22406ms%22%20values%3D%220.2%3B0.8%3B0%3B0%3B0%3B0.3e0%3B0.9%3B1%3B0.9%3B0.3e0%3B0%3B0%3B0%3B0.2%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%226563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22406ms%22%20values%3D%22362%3B362%3B362%3B362%3B362%3B362%3B362%3B360%3B362%3B362%3B362%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%226563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22406ms%22%20values%3D%22122%3B122%3B122%3B122%3B122%3B122%3B122%3B120%3B122%3B122%3B122%3B122%3B122%3B122%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%226563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22406ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%226563ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22406ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%22146%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%225729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2247ms%22%20values%3D%220%3B0%3B0%3B0.5e0%3B0.9%3B1%3B0.9%3B0.5e0%3B0%3B0%3B0%3B0.2%3B0.9%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%225729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2247ms%22%20values%3D%22362%3B362%3B362%3B362%3B362%3B360%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%225729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2247ms%22%20values%3D%22146%3B146%3B146%3B146%3B146%3B144%3B146%3B146%3B146%3B146%3B146%3B146%3B146%3B146%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%225729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2247ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%225729ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%2247ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%22170%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%228438ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%220%3B0%3B0%3B0.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.2%3B0.9%3B0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%228438ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%22362%3B362%3B362%3B362%3B362%3B360%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%228438ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%22170%3B170%3B170%3B170%3B170%3B168%3B170%3B170%3B170%3B170%3B170%3B170%3B170%3B170%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%228438ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%228438ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22272ms%22%20values%3D%2220%3B20%3B20%3B20%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22362%22%20y%3D%22194%22%20width%3D%2220%22%20height%3D%2220%22%20fill-opacity%3D%220.4e0%22%3E%20%3Canimate%20attributeName%3D%22fill-opacity%22%20dur%3D%2217813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22488ms%22%20values%3D%220.4e0%3B0.9%3B1%3B0.9%3B0.4e0%3B0%3B0%3B0%3B0.3%3B0.8%3B0%3B0%3B0%3B0.4e0%22%20%2F%3E%20%3Canimate%20attributeName%3D%22x%22%20dur%3D%2217813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22488ms%22%20values%3D%22362%3B362%3B360%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%3B362%22%20%2F%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%2217813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22488ms%22%20values%3D%22194%3B194%3B192%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%3B194%22%20%2F%3E%20%3Canimate%20attributeName%3D%22width%22%20dur%3D%2217813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22488ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%2217813ms%22%20repeatCount%3D%22indefinite%22%20begin%3D%22488ms%22%20values%3D%2220%3B20%3B24%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%3B20%22%20%2F%3E%20%3C%2Frect%3E%3C%2Fsvg%3E');
+  background-size: 236px;
+  background-position: center;
+  background-repeat: repeat;
+}
+body:after {
+  background-color: #f8f4f1;
+  content: '';
+  display: block;
+  pointer-events: none;
+  position: fixed;
+  transform: scale(1);
+  z-index: 2;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  transition: opacity 1s ease-in-out 0s, visibility 1s 0s;
+  visibility: hidden;
+  width: 100%;
+}
+body.is-loading:after {
+  opacity: 1;
+  visibility: visible;
+}
+:root {
+  --background-height: 100vh;
+  --site-language-alignment: left;
+  --site-language-direction: ltr;
+  --site-language-flex-alignment: flex-start;
+  --site-language-indent-left: 1;
+  --site-language-indent-right: 0;
+  --site-language-margin-left: 0;
+  --site-language-margin-right: auto;
+  --viewport-height: 100vh;
+}
+html {
+  font-size: 15pt;
+}
+u {
+  text-decoration: underline;
+}
+strong {
+  color: inherit;
+  font-weight: bolder;
+}
+em {
+  font-style: italic;
+}
+code {
+  background-color: rgba(144, 144, 144, 0.25);
+  border-radius: 0.25em;
+  font-family: 'Lucida Console', 'Courier New', monospace;
+  font-size: 0.9em;
+  font-weight: normal;
+  letter-spacing: 0;
+  margin: 0 0.25em;
+  padding: 0.25em 0.5em;
+  text-indent: 0;
+}
+mark {
+  background-color: rgba(144, 144, 144, 0.25);
+}
+spoiler-text {
+  -webkit-text-stroke: 0;
+  background-color: rgba(32, 32, 32, 0.75);
+  text-shadow: none;
+  color: transparent;
+  cursor: pointer;
+  transition: color 0.1s ease-in-out;
+  stroke: rgba(32, 32, 32, 0.75) 0px;
+}
+spoiler-text.active {
+  color: #ffffff;
+  cursor: text;
+}
+s {
+  text-decoration: line-through;
+}
+sub {
+  font-size: smaller;
+  vertical-align: sub;
+}
+sup {
+  font-size: smaller;
+  vertical-align: super;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.25s ease;
+}
+a[onclick]:not([href]) {
+  cursor: pointer;
+}
+unloaded-script {
+  display: none;
+}
+#wrapper {
+  -webkit-overflow-scrolling: touch;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: var(--viewport-height);
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+#main {
+  --alignment: center;
+  --flex-alignment: center;
+  --indent-left: 1;
+  --indent-right: 1;
+  --margin-left: auto;
+  --margin-right: auto;
+  --border-radius-tl: 0;
+  --border-radius-tr: 0;
+  --border-radius-br: 0;
+  --border-radius-bl: 0;
+  align-items: center;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+  text-align: var(--alignment);
+  z-index: 1;
+  transition: opacity 0.75s ease 0s, transform 0.75s ease 0s;
+}
+#main > .inner {
+  --padding-horizontal: 2rem;
+  --padding-vertical: 2rem;
+  --spacing: 2.125rem;
+  --width: 40rem;
+  border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: var(--viewport-height);
+  width: var(--width);
+  z-index: 1;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+}
+#main > .inner > * {
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+  transition: opacity 1.625s ease-in-out 0.25s, transform 1.625s ease-in-out 0.25s;
+}
+#main > .inner > :first-child {
+  margin-top: 0 !important;
+}
+#main > .inner > :last-child {
+  margin-bottom: 0 !important;
+}
+#main > .inner > .full {
+  margin-left: calc(var(--padding-horizontal) * -1);
+  max-width: calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);
+  width: calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);
+}
+#main > .inner > .full:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  margin-top: calc(var(--padding-vertical) * -1) !important;
+}
+#main > .inner > .full:last-child {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  margin-bottom: calc(var(--padding-vertical) * -1) !important;
+}
+#main > .inner > .full.screen {
+  border-radius: 0 !important;
+  max-width: 100vw;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  right: auto;
+}
+body.is-loading #main {
+  opacity: 0;
+  transform: scale(0.97875);
+}
+body #loader {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 3.75rem;
+  left: calc(50% - 1.875rem);
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: calc(50% - 1.875rem);
+  transition: opacity 1s ease, visibility 1s;
+  visibility: hidden;
+  width: 3.75rem;
+  z-index: 100000;
+}
+body.with-loader #loader {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTZweCIgaGVpZ2h0PSI5NnB4IiB2aWV3Qm94PSIwIDAgOTYgOTYiIHpvb21BbmRQYW49ImRpc2FibGUiPjxzdHlsZT5jaXJjbGUgeyBmaWxsOiB0cmFuc3BhcmVudDsgc3Ryb2tlOiAjNEE0QTRBNTk7IHN0cm9rZS13aWR0aDogMnB4OyB9PC9zdHlsZT48ZGVmcz48Y2xpcFBhdGggaWQ9ImNvcm5lciI+PHBvbHlnb24gcG9pbnRzPSIwLDAgNDgsMCA0OCw0OCA5Niw0OCA5Niw5NiAwLDk2IiAvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNjb3JuZXIpIj48Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSIzMiIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIiAvPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgYXR0cmlidXRlVHlwZT0iWE1MIiB0eXBlPSJyb3RhdGUiIGZyb209IjAgNDggNDgiIHRvPSIzNjAgNDggNDgiIGR1cj0iMXMiIHJlcGVhdER1cj0iaW5kZWZpbml0ZSIgLz48L2c+PC9zdmc+');
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+}
+body.is-loading {
+  pointer-events: none;
+}
+body.is-playing.with-loader #loader {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.25s ease, transform 0.75s ease, visibility 0.25s;
+  visibility: hidden;
+}
+body.is-loading #main > .inner > * {
+  opacity: 0;
+  transform: scale(0.94375);
+}
+#main > .inner > :nth-child(2) {
+  transition-delay: 0.5s;
+}
+#main > .inner > :nth-child(3) {
+  transition-delay: 0.75s;
+}
+#main > .inner > :nth-child(4) {
+  transition-delay: 1s;
+}
+#main > .inner > :nth-child(5) {
+  transition-delay: 1.25s;
+}
+#main > .inner > :nth-child(6) {
+  transition-delay: 1.5s;
+}
+#main > .inner > :nth-child(7) {
+  transition-delay: 1.75s;
+}
+body.is-instant #main,
+body.is-instant #main > .inner > *,
+body.is-instant #main > .inner > section > * {
+  transition: none !important;
+}
+body.is-instant:after {
+  display: none !important;
+  transition: none !important;
+}
+.image {
+  display: block;
+  line-height: 0;
+  max-width: 100%;
+  position: relative;
+}
+.image .frame {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  vertical-align: top;
+  width: 100%;
+}
+.image .frame img {
+  border-radius: 0 !important;
+  max-width: 100%;
+  vertical-align: top;
+  width: inherit;
+}
+.image.full .frame {
+  display: block;
+}
+.image.full:first-child .frame {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.image.full:last-child .frame {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+#image01:not(:first-child) {
+  margin-top: 2.5rem !important;
+}
+#image01:not(:last-child) {
+  margin-bottom: 2.5rem !important;
+}
+#image01 .frame {
+  width: 9rem;
+  border-radius: 1.5rem;
+  border-color: #4a4a4a;
+  border-style: solid;
+  border-width: 1px;
+  transition: none;
+}
+#image01 .frame img:first-child {
+  border-radius: calc(1.5rem - 1px) !important;
+}
+#image01 img {
+  border-radius: inherit !important;
+  padding: 0.25rem;
+}
+#image01 .frame img {
+  transition: none;
+}
+h1,
+h2,
+h3,
+p {
+  direction: var(--site-language-direction);
+  position: relative;
+}
+h1 span.p,
+h2 span.p,
+h3 span.p,
+p span.p {
+  display: block;
+  position: relative;
+}
+h1 span[style],
+h2 span[style],
+h3 span[style],
+p span[style],
+h1 strong,
+h2 strong,
+h3 strong,
+p strong,
+h1 a,
+h2 a,
+h3 a,
+p a,
+h1 code,
+h2 code,
+h3 code,
+p code,
+h1 mark,
+h2 mark,
+h3 mark,
+p mark,
+h1 spoiler-text,
+h2 spoiler-text,
+h3 spoiler-text,
+p spoiler-text {
+  -webkit-text-fill-color: currentcolor;
+}
+#text01 {
+  text-transform: uppercase;
+  color: #4a4a4a;
+  font-family: 'Playfair Display', serif;
+  font-size: 4.625em;
+  line-height: 1.25;
+  font-weight: 400;
+}
+#text01 a {
+  text-decoration: underline;
+}
+#text01 a:hover {
+  text-decoration: none;
+}
+#text01 span.p:nth-child(n + 2) {
+  margin-top: 1rem;
+}
+#text01 > * {
+  display: inline-block;
+  line-height: 1.2;
+}
+#text02 {
+  color: #4a4a4a;
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  line-height: 1.875;
+  font-weight: 400;
+}
+#text02 a {
+  text-decoration: underline;
+}
+#text02 a:hover {
+  text-decoration: none;
+}
+#text02 span.p:nth-child(n + 2) {
+  margin-top: 1rem;
+}
+#text03 {
+  color: #4a4a4a;
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  line-height: 1.875;
+  font-weight: 400;
+}
+#text03 a {
+  text-decoration: underline;
+}
+#text03 a:hover {
+  text-decoration: none;
+}
+#text03 span.p:nth-child(n + 2) {
+  margin-top: 1rem;
+}
+#text04 {
+  color: #4a4a4a;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.5rem;
+  line-height: 1.875;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+}
+/* When page is long, fix text04 to the viewport bottom */
+.fixed-text04 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  z-index: 10;
+}
+#text04 a {
+  text-decoration: underline;
+}
+#text04 a:hover {
+  text-decoration: none;
+}
+/* Ensure subsequent spans don't add unintended spacing */
+#text04 span.p:nth-child(n + 2) {
+  margin-top: 0;
+}
+hr {
+  align-items: center;
+  border: 0;
+  display: flex;
+  justify-content: var(--flex-alignment);
+  min-height: 1rem;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+hr:before {
+  content: '';
+}
+#divider02:before {
+  width: 100%;
+  background-color: #595959;
+  height: 1px;
+  border-radius: 0px;
+}
+.icons {
+  display: grid;
+  grid-template-columns: repeat(8, max-content);
+  gap: 1rem 1rem;
+  justify-items: center;
+  justify-content: center;
+  letter-spacing: 0;
+  padding: 0;
+}
+.icons li {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+}
+.icons li a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.icons li a svg {
+  display: block;
+  pointer-events: none;
+  position: relative;
+}
+.icons li a + svg {
+  display: block;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.icons li a .label {
+  display: none;
+}
+#icons01 {
+  font-size: 1.625em;
+}
+#icons01:not(:first-child) {
+  margin-top: 2.5rem !important;
+}
+#icons01:not(:last-child) {
+  margin-bottom: 2.5rem !important;
+}
+#icons01 li a {
+  border-radius: 0.75rem;
+  height: 2em;
+  width: 2em;
+  transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+#icons01 li a svg {
+  height: 60%;
+  width: 60%;
+  transition: fill 0.25s ease;
+}
+#icons01 a svg {
+  fill: #4a4a4a;
+}
+#icons01 a {
+  border: solid 1px #595959;
+}
+#icons01 li a + svg {
+  transition: transform 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
+}
+#icons01 li a:hover {
+  transform: translateY(-16.5%);
+}
+#icons01 li a:hover + svg {
+  transform: translateY(-16.5%);
+}
+.icc-credits {
+  display: block;
+  opacity: 1 !important;
+  position: relative;
+  transition-delay: 0s !important;
+}
+.icc-credits span {
+  border-radius: 24px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 1;
+  position: relative;
+  text-decoration: none;
+  width: auto;
+}
+.icc-credits span a {
+  display: inline-block;
+  padding: 0.5em 0.375em;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.25s ease, transform 0.25s ease;
+  z-index: 1;
+}
+.icc-credits span a:before {
+  content: '( ';
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+.icc-credits span a:after {
+  content: ' )';
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+.icc-credits span::after {
+  background-image: linear-gradient(30deg, #a464a1 15%, #3b5dad 85%);
+  border-radius: inherit;
+  box-shadow: 0 0.25em 1.25em 0 rgba(0, 0, 0, 0.25);
+  content: '';
+  display: block;
+  height: calc(100% + 2px);
+  left: -1px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: -1px;
+  transition: opacity 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+  width: calc(100% + 2px);
+}
+.icc-credits span:hover {
+  text-transform: none !important;
+}
+.icc-credits span:hover a {
+  color: #ffffff !important;
+  transform: scale(1.1) translateY(-0.05rem);
+}
+.icc-credits span:hover a:before {
+  opacity: 0;
+}
+.icc-credits span:hover a:after {
+  opacity: 0;
+}
+.icc-credits span:hover::after {
+  opacity: 1;
+  transform: scale(1.1) translateY(-0.05rem);
+}
+#credits span {
+  color: rgba(74, 74, 74, 0.498);
+  margin-top: 1.5rem !important;
+}
+@media (max-width: 1920px) {
+  html {
+    font-size: 13pt;
+  }
+}
+@media (max-width: 1680px) {
+  html {
+    font-size: 12pt;
+  }
+}
+@media (max-width: 1280px) {
+  html {
+    font-size: 11pt;
+  }
+  #icons01 {
+    font-size: 1.6rem;
+    gap: 1.4rem;
+  }
+}
+@media (max-width: 1024px) {
+  #main > .inner {
+    --padding-horizontal: 2rem;
+    --padding-vertical: 2rem;
+    --spacing: 2.125rem;
+  }
+  #image01:not(:first-child) {
+    margin-top: 1.875rem !important;
+  }
+  #image01:not(:last-child) {
+    margin-bottom: 1.875rem !important;
+  }
+  #image01 .frame {
+    width: 8.5rem;
+  }
+  #text01 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 3.5em;
+    line-height: 1.25;
+  }
+  #text02 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.875;
+  }
+  #text03 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.875;
+  }
+  #icons01:not(:first-child) {
+    margin-top: 1.875rem !important;
+  }
+  #icons01:not(:last-child) {
+    margin-bottom: 1.875rem !important;
+  }
+  #main > .inner {
+    --padding-horizontal: 1.5rem;
+    --padding-vertical: 1.5rem;
+    --spacing: 2rem;
+  }
+  #icons01 {
+    font-size: 1.6rem;
+    gap: 1.4rem;
+  }
+  #divider02:before {
+    width: 100rem;
+  }
+}
+@media (max-width: 980px) {
+  html {
+    font-size: 10pt;
+  }
+  #main > .inner {
+    --padding-horizontal: 2rem;
+    --padding-vertical: 2rem;
+    --spacing: 2.125rem;
+  }
+  #image01:not(:first-child) {
+    margin-top: 1.875rem !important;
+  }
+  #image01:not(:last-child) {
+    margin-bottom: 1.875rem !important;
+  }
+  #image01 .frame {
+    width: 8.5rem;
+  }
+  #text01 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 3.5em;
+    line-height: 1.25;
+  }
+  #text02 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.875;
+  }
+  #text03 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.875;
+  }
+  #divider02:before {
+    width: 100rem;
+  }
+  #icons01 {
+    font-size: 2.8em;
+  }
+  #icons01:not(:first-child) {
+    margin-top: 1.875rem !important;
+  }
+  #icons01:not(:last-child) {
+    margin-bottom: 1.875rem !important;
+  }
+  #main > .inner {
+    --padding-horizontal: 1.5rem;
+    --padding-vertical: 1.5rem;
+    --spacing: 2rem;
+  }
+  #text01 {
+    font-size: 4.4em;
+  }
+  #text02 {
+    font-size: 1.4rem;
+  }
+  #text03 {
+    font-size: 1.4rem;
+  }
+  #icons01 {
+    grid-template-columns: repeat(4, max-content);
+    font-size: 2.6rem;
+    gap: 1.6rem;
+  }
+}
+@media (max-width: 736px) {
+  html {
+    font-size: 9pt;
+  }
+  #main > .inner {
+    --padding-horizontal: 2rem;
+    --padding-vertical: 2rem;
+    --spacing: 2.125rem;
+  }
+  #image01:not(:first-child) {
+    margin-top: 1.875rem !important;
+  }
+  #image01:not(:last-child) {
+    margin-bottom: 1.875rem !important;
+  }
+  #image01 .frame {
+    width: 8.5rem;
+  }
+  #text01 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 3.5em;
+    line-height: 1.25;
+  }
+  #text02 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.875;
+  }
+  #text03 {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.875;
+  }
+  #divider02:before {
+    width: 100rem;
+  }
+  #icons01 {
+    font-size: 2.8em;
+  }
+  #icons01:not(:first-child) {
+    margin-top: 1.875rem !important;
+  }
+  #icons01:not(:last-child) {
+    margin-bottom: 1.875rem !important;
+  }
+  #main > .inner {
+    --padding-horizontal: 1.5rem;
+    --padding-vertical: 1.5rem;
+    --spacing: 2rem;
+  }
+  #text01 {
+    font-size: 4.4em;
+  }
+  #text02 {
+    font-size: 1.4rem;
+  }
+  #text03 {
+    font-size: 1.4rem;
+  }
+  #icons01 {
+    grid-template-columns: repeat(4, max-content);
+    font-size: 2.6rem;
+    gap: 1.6rem;
+  }
+}
+@media (max-width: 640px) {
+  #main > .inner {
+    --padding-horizontal: 1.5rem;
+    --padding-vertical: 1.5rem;
+    --spacing: 2rem;
+  }
+  #text01 {
+    font-size: 4.2em;
+  }
+  #text02 {
+    font-size: 1.4rem;
+  }
+  #text03 {
+    font-size: 1.4rem;
+  }
+  #icons01 {
+    font-size: 2.4rem;
+    gap: 1.4rem;
+  }
+}
+@media (max-width: 512px) {
+  #main > .inner {
+    --padding-horizontal: 1.5rem;
+    --padding-vertical: 1.5rem;
+    --spacing: 2rem;
+  }
+  #text01 {
+    font-size: 3.9em;
+  }
+  #text02 {
+    font-size: 1.4rem;
+  }
+  #text03 {
+    font-size: 1.4rem;
+  }
+  #icons01 {
+    grid-template-columns: repeat(4, max-content);
+    font-size: 2.4rem;
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+  #main > .inner {
+    --padding-horizontal: 1.5rem;
+    --padding-vertical: 1.5rem;
+    --spacing: 2rem;
+  }
+  #text01 {
+    font-size: 3.7em;
+  }
+  #text02 {
+    font-size: 1.2rem;
+  }
+  #text03 {
+    font-size: 1.2rem;
+  }
+  #icons01 {
+    grid-template-columns: repeat(4, max-content);
+    font-size: 2.2rem;
+    gap: 1rem;
+  }
+}
+@media (max-width: 360px) {
+  #main > .inner {
+    --padding-horizontal: 1.5rem;
+    --padding-vertical: 1.5rem;
+    --spacing: 2rem;
+  }
+  #text01 {
+    font-size: 3.5rem;
+  }
+  #text02 {
+    font-size: 1rem;
+  }
+  #text03 {
+    font-size: 1rem;
+  }
+  #icons01 {
+    grid-template-columns: repeat(4, max-content);
+    font-size: 2rem;
+    gap: 0.8rem;
+  }
+}
