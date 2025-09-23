@@ -154,6 +154,11 @@ body {
   word-wrap: break-word;
   background-color: #f8f4f1;
 }
+/* Shared layout variables */
+:root {
+  /* Width used to align both the icons block and the divider */
+  --icons-block-width: 36rem;
+}
 body:before {
   background-attachment: scroll;
   content: '';
@@ -606,14 +611,18 @@ hr:before {
   content: '';
 }
 #divider02:before {
-  width: 100%;
+  width: var(--icons-block-width);
   background-color: #595959;
   height: 1px;
   border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .icons {
+  --icon-size: 2em;
   display: grid;
-  grid-template-columns: repeat(8, max-content);
+  grid-template-columns: repeat(9, max-content);
   gap: 1rem 1rem;
   justify-items: center;
   justify-content: center;
@@ -650,6 +659,9 @@ hr:before {
 }
 #icons01 {
   font-size: 1.625em;
+  width: var(--icons-block-width);
+  margin-left: auto;
+  margin-right: auto;
 }
 #icons01:not(:first-child) {
   margin-top: 2.5rem !important;
@@ -658,10 +670,17 @@ hr:before {
   margin-bottom: 2.5rem !important;
 }
 #icons01 li a {
+  --focus-outline: 2px;
   border-radius: 0.75rem;
-  height: 2em;
-  width: 2em;
-  transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+  height: var(--icon-size);
+  width: var(--icon-size);
+  transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease,
+    box-shadow 0.25s ease;
+  outline: none;
+}
+/* Keyboard focus accessibility */
+#icons01 li a:focus-visible {
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 6px #595959;
 }
 #icons01 li a svg {
   height: 60%;
@@ -823,7 +842,7 @@ hr:before {
     gap: 1.4rem;
   }
   #divider02:before {
-    width: 100rem;
+    width: var(--icons-block-width);
   }
 }
 @media (max-width: 980px) {
@@ -863,7 +882,7 @@ hr:before {
     line-height: 1.875;
   }
   #divider02:before {
-    width: 100rem;
+    width: var(--icons-block-width);
   }
   #icons01 {
     font-size: 2.8em;
@@ -888,10 +907,11 @@ hr:before {
   #text03 {
     font-size: 1.4rem;
   }
+  /* Tablet: show icons in a 3x3 grid (9 items total) */
   #icons01 {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(3, max-content);
     font-size: 2.6rem;
-    gap: 1.6rem;
+    gap: 1.8rem 2.2rem;
   }
 }
 @media (max-width: 736px) {
@@ -931,7 +951,7 @@ hr:before {
     line-height: 1.875;
   }
   #divider02:before {
-    width: 100rem;
+    width: var(--icons-block-width);
   }
   #icons01 {
     font-size: 2.8em;
@@ -956,10 +976,11 @@ hr:before {
   #text03 {
     font-size: 1.4rem;
   }
+  /* Maintain 3 columns down to 736px for consistent 3x3 feel */
   #icons01 {
-    grid-template-columns: repeat(4, max-content);
-    font-size: 2.6rem;
-    gap: 1.6rem;
+    grid-template-columns: repeat(3, max-content);
+    font-size: 2.5rem;
+    gap: 1.6rem 2rem;
   }
 }
 @media (max-width: 640px) {
@@ -978,8 +999,9 @@ hr:before {
     font-size: 1.4rem;
   }
   #icons01 {
+    grid-template-columns: repeat(3, max-content);
     font-size: 2.4rem;
-    gap: 1.4rem;
+    gap: 1.4rem 1.8rem;
   }
 }
 @media (max-width: 512px) {
@@ -998,9 +1020,9 @@ hr:before {
     font-size: 1.4rem;
   }
   #icons01 {
-    grid-template-columns: repeat(4, max-content);
-    font-size: 2.4rem;
-    gap: 1.2rem;
+    grid-template-columns: repeat(3, max-content);
+    font-size: 2.3rem;
+    gap: 1.2rem 1.6rem;
   }
 }
 @media (max-width: 480px) {
@@ -1019,9 +1041,9 @@ hr:before {
     font-size: 1.2rem;
   }
   #icons01 {
-    grid-template-columns: repeat(4, max-content);
-    font-size: 2.2rem;
-    gap: 1rem;
+    grid-template-columns: repeat(3, max-content);
+    font-size: 2.15rem;
+    gap: 1rem 1.4rem;
   }
 }
 @media (max-width: 360px) {
@@ -1040,8 +1062,8 @@ hr:before {
     font-size: 1rem;
   }
   #icons01 {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(3, max-content);
     font-size: 2rem;
-    gap: 0.8rem;
+    gap: 0.8rem 1.2rem;
   }
 }
