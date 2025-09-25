@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://allangarcia-dev.carrd.co/sitemap.xml
+# Update once sitemap.xml is available at your domain
+Sitemap: https://allangarcia.com/sitemap.xml

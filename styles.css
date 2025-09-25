@@ -1067,3 +1067,18 @@ hr:before {
     gap: 0.8rem 1.2rem;
   }
 }
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Tone down hover lift on icons */
+  #socialIcons li a:hover,
+  #socialIcons li a:hover + svg {
+    transform: none !important;
+  }
+}
