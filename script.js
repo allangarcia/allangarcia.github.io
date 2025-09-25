@@ -325,9 +325,9 @@
   }
   on('load', loadHandler)
   loadElements(document.body)
-  // Toggle fixed footer behavior for #text04: fixed on long pages, normal on short pages
+  // Toggle fixed footer behavior for #footerCopyright: fixed on long pages, normal on short pages
   ;(function () {
-    var el = document.getElementById('text04')
+    var el = document.getElementById('footerCopyright')
     if (!el) return
     var update = function () {
       // Consider full document height vs viewport height plus a small threshold
@@ -341,9 +341,9 @@
       )
       var vp = window.innerHeight
       if (docHeight > vp + 16) {
-        el.classList.add('fixed-text04')
+        el.classList.add('fixed-footer')
       } else {
-        el.classList.remove('fixed-text04')
+        el.classList.remove('fixed-footer')
       }
     }
     on('load', update)
@@ -1427,7 +1427,7 @@
       }
     },
   }
-  onvisible.add('#image01', {
+  onvisible.add('#profileImage', {
     style: 'fade-up',
     speed: 1000,
     intensity: 0,
@@ -1436,7 +1436,7 @@
     state: true,
     replay: false,
   })
-  onvisible.add('#text01', {
+  onvisible.add('#heroTitle', {
     style: 'fade-up',
     speed: 1000,
     intensity: 0,
@@ -1447,7 +1447,7 @@
     state: true,
     replay: false,
   })
-  onvisible.add('#text02', {
+  onvisible.add('#heroSubtitle', {
     style: 'fade-up',
     speed: 1000,
     intensity: 0,
@@ -1456,7 +1456,7 @@
     state: true,
     replay: false,
   })
-  onvisible.add('#text03', {
+  onvisible.add('#introDescription', {
     style: 'fade-up',
     speed: 1000,
     intensity: 0,
@@ -1465,7 +1465,7 @@
     state: true,
     replay: false,
   })
-  onvisible.add('#icons01', {
+  onvisible.add('#socialIcons', {
     style: 'fade-up',
     speed: 1000,
     intensity: 2,

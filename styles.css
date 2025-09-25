@@ -453,13 +453,13 @@ body.is-instant:after {
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
 }
-#image01:not(:first-child) {
+#profileImage:not(:first-child) {
   margin-top: 2.5rem !important;
 }
-#image01:not(:last-child) {
+#profileImage:not(:last-child) {
   margin-bottom: 2.5rem !important;
 }
-#image01 .frame {
+#profileImage .frame {
   width: 9rem;
   border-radius: 1.5rem;
   border-color: #4a4a4a;
@@ -467,14 +467,14 @@ body.is-instant:after {
   border-width: 1px;
   transition: none;
 }
-#image01 .frame img:first-child {
+#profileImage .frame img:first-child {
   border-radius: calc(1.5rem - 1px) !important;
 }
-#image01 img {
+#profileImage img {
   border-radius: inherit !important;
   padding: 0.25rem;
 }
-#image01 .frame img {
+#profileImage .frame img {
   transition: none;
 }
 h1,
@@ -517,7 +517,7 @@ h3 spoiler-text,
 p spoiler-text {
   -webkit-text-fill-color: currentcolor;
 }
-#text01 {
+#heroTitle {
   text-transform: uppercase;
   color: #4a4a4a;
   font-family: 'Playfair Display', serif;
@@ -525,52 +525,52 @@ p spoiler-text {
   line-height: 1.25;
   font-weight: 400;
 }
-#text01 a {
+#heroTitle a {
   text-decoration: underline;
 }
-#text01 a:hover {
+#heroTitle a:hover {
   text-decoration: none;
 }
-#text01 span.p:nth-child(n + 2) {
+#heroTitle span.p:nth-child(n + 2) {
   margin-top: 1rem;
 }
-#text01 > * {
+#heroTitle > * {
   display: inline-block;
   line-height: 1.2;
 }
-#text02 {
+#heroSubtitle {
   color: #4a4a4a;
   font-family: 'Inter', sans-serif;
   font-size: 1em;
   line-height: 1.875;
   font-weight: 400;
 }
-#text02 a {
+#heroSubtitle a {
   text-decoration: underline;
 }
-#text02 a:hover {
+#heroSubtitle a:hover {
   text-decoration: none;
 }
-#text02 span.p:nth-child(n + 2) {
+#heroSubtitle span.p:nth-child(n + 2) {
   margin-top: 1rem;
 }
-#text03 {
+#introDescription {
   color: #4a4a4a;
   font-family: 'Inter', sans-serif;
   font-size: 1em;
   line-height: 1.875;
   font-weight: 400;
 }
-#text03 a {
+#introDescription a {
   text-decoration: underline;
 }
-#text03 a:hover {
+#introDescription a:hover {
   text-decoration: none;
 }
-#text03 span.p:nth-child(n + 2) {
+#introDescription span.p:nth-child(n + 2) {
   margin-top: 1rem;
 }
-#text04 {
+#footerCopyright {
   color: #4a4a4a;
   font-family: 'Inter', sans-serif;
   font-size: 0.5rem;
@@ -579,22 +579,22 @@ p spoiler-text {
   text-align: center;
   margin-top: 0;
 }
-/* When page is long, fix text04 to the viewport bottom */
-.fixed-text04 {
+/* When page is long, fix footerCopyright to the viewport bottom */
+.fixed-footer {
   position: fixed;
   left: 0;
   right: 0;
   bottom: 1rem;
   z-index: 10;
 }
-#text04 a {
+#footerCopyright a {
   text-decoration: underline;
 }
-#text04 a:hover {
+#footerCopyright a:hover {
   text-decoration: none;
 }
 /* Ensure subsequent spans don't add unintended spacing */
-#text04 span.p:nth-child(n + 2) {
+#footerCopyright span.p:nth-child(n + 2) {
   margin-top: 0;
 }
 hr {
@@ -610,7 +610,7 @@ hr {
 hr:before {
   content: '';
 }
-#divider02:before {
+#iconsDivider:before {
   width: var(--icons-block-width);
   background-color: #595959;
   height: 1px;
@@ -657,19 +657,19 @@ hr:before {
 .icons li a .label {
   display: none;
 }
-#icons01 {
+#socialIcons {
   font-size: 1.625em;
   width: var(--icons-block-width);
   margin-left: auto;
   margin-right: auto;
 }
-#icons01:not(:first-child) {
+#socialIcons:not(:first-child) {
   margin-top: 2.5rem !important;
 }
-#icons01:not(:last-child) {
+#socialIcons:not(:last-child) {
   margin-bottom: 2.5rem !important;
 }
-#icons01 li a {
+#socialIcons li a {
   --focus-outline: 2px;
   border-radius: 0.75rem;
   height: var(--icon-size);
@@ -679,27 +679,27 @@ hr:before {
   outline: none;
 }
 /* Keyboard focus accessibility */
-#icons01 li a:focus-visible {
+#socialIcons li a:focus-visible {
   box-shadow: 0 0 0 3px #ffffff, 0 0 0 6px #595959;
 }
-#icons01 li a svg {
+#socialIcons li a svg {
   height: 60%;
   width: 60%;
   transition: fill 0.25s ease;
 }
-#icons01 a svg {
+#socialIcons a svg {
   fill: #4a4a4a;
 }
-#icons01 a {
+#socialIcons a {
   border: solid 1px #595959;
 }
-#icons01 li a + svg {
+#socialIcons li a + svg {
   transition: transform 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
 }
-#icons01 li a:hover {
+#socialIcons li a:hover {
   transform: translateY(-16.5%);
 }
-#icons01 li a:hover + svg {
+#socialIcons li a:hover + svg {
   transform: translateY(-16.5%);
 }
 .icc-credits {
@@ -788,7 +788,7 @@ hr:before {
   html {
     font-size: 11pt;
   }
-  #icons01 {
+  #socialIcons {
     font-size: 1.6rem;
     gap: 1.4rem;
   }
@@ -799,37 +799,37 @@ hr:before {
     --padding-vertical: 2rem;
     --spacing: 2.125rem;
   }
-  #image01:not(:first-child) {
+  #profileImage:not(:first-child) {
     margin-top: 1.875rem !important;
   }
-  #image01:not(:last-child) {
+  #profileImage:not(:last-child) {
     margin-bottom: 1.875rem !important;
   }
-  #image01 .frame {
+  #profileImage .frame {
     width: 8.5rem;
   }
-  #text01 {
+  #heroTitle {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 3.5em;
     line-height: 1.25;
   }
-  #text02 {
+  #heroSubtitle {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 1em;
     line-height: 1.875;
   }
-  #text03 {
+  #introDescription {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 1em;
     line-height: 1.875;
   }
-  #icons01:not(:first-child) {
+  #socialIcons:not(:first-child) {
     margin-top: 1.875rem !important;
   }
-  #icons01:not(:last-child) {
+  #socialIcons:not(:last-child) {
     margin-bottom: 1.875rem !important;
   }
   #main > .inner {
@@ -837,11 +837,11 @@ hr:before {
     --padding-vertical: 1.5rem;
     --spacing: 2rem;
   }
-  #icons01 {
+  #socialIcons {
     font-size: 1.6rem;
     gap: 1.4rem;
   }
-  #divider02:before {
+  #iconsDivider:before {
     width: var(--icons-block-width);
   }
 }
@@ -854,43 +854,43 @@ hr:before {
     --padding-vertical: 2rem;
     --spacing: 2.125rem;
   }
-  #image01:not(:first-child) {
+  #profileImage:not(:first-child) {
     margin-top: 1.875rem !important;
   }
-  #image01:not(:last-child) {
+  #profileImage:not(:last-child) {
     margin-bottom: 1.875rem !important;
   }
-  #image01 .frame {
+  #profileImage .frame {
     width: 8.5rem;
   }
-  #text01 {
+  #heroTitle {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 3.5em;
     line-height: 1.25;
   }
-  #text02 {
+  #heroSubtitle {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 1em;
     line-height: 1.875;
   }
-  #text03 {
+  #introDescription {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 1em;
     line-height: 1.875;
   }
-  #divider02:before {
+  #iconsDivider:before {
     width: var(--icons-block-width);
   }
-  #icons01 {
+  #socialIcons {
     font-size: 2.8em;
   }
-  #icons01:not(:first-child) {
+  #socialIcons:not(:first-child) {
     margin-top: 1.875rem !important;
   }
-  #icons01:not(:last-child) {
+  #socialIcons:not(:last-child) {
     margin-bottom: 1.875rem !important;
   }
   #main > .inner {
@@ -898,17 +898,17 @@ hr:before {
     --padding-vertical: 1.5rem;
     --spacing: 2rem;
   }
-  #text01 {
+  #heroTitle {
     font-size: 4.4em;
   }
-  #text02 {
+  #heroSubtitle {
     font-size: 1.4rem;
   }
-  #text03 {
+  #introDescription {
     font-size: 1.4rem;
   }
   /* Tablet: show icons in a 3x3 grid (9 items total) */
-  #icons01 {
+  #socialIcons {
     grid-template-columns: repeat(3, max-content);
     font-size: 2.6rem;
     gap: 1.8rem 2.2rem;
@@ -923,43 +923,43 @@ hr:before {
     --padding-vertical: 2rem;
     --spacing: 2.125rem;
   }
-  #image01:not(:first-child) {
+  #profileImage:not(:first-child) {
     margin-top: 1.875rem !important;
   }
-  #image01:not(:last-child) {
+  #profileImage:not(:last-child) {
     margin-bottom: 1.875rem !important;
   }
-  #image01 .frame {
+  #profileImage .frame {
     width: 8.5rem;
   }
-  #text01 {
+  #heroTitle {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 3.5em;
     line-height: 1.25;
   }
-  #text02 {
+  #heroSubtitle {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 1em;
     line-height: 1.875;
   }
-  #text03 {
+  #introDescription {
     letter-spacing: 0rem;
     width: 100%;
     font-size: 1em;
     line-height: 1.875;
   }
-  #divider02:before {
+  #iconsDivider:before {
     width: var(--icons-block-width);
   }
-  #icons01 {
+  #socialIcons {
     font-size: 2.8em;
   }
-  #icons01:not(:first-child) {
+  #socialIcons:not(:first-child) {
     margin-top: 1.875rem !important;
   }
-  #icons01:not(:last-child) {
+  #socialIcons:not(:last-child) {
     margin-bottom: 1.875rem !important;
   }
   #main > .inner {
@@ -967,17 +967,17 @@ hr:before {
     --padding-vertical: 1.5rem;
     --spacing: 2rem;
   }
-  #text01 {
+  #heroTitle {
     font-size: 4.4em;
   }
-  #text02 {
+  #heroSubtitle {
     font-size: 1.4rem;
   }
-  #text03 {
+  #introDescription {
     font-size: 1.4rem;
   }
   /* Maintain 3 columns down to 736px for consistent 3x3 feel */
-  #icons01 {
+  #socialIcons {
     grid-template-columns: repeat(3, max-content);
     font-size: 2.5rem;
     gap: 1.6rem 2rem;
@@ -989,16 +989,16 @@ hr:before {
     --padding-vertical: 1.5rem;
     --spacing: 2rem;
   }
-  #text01 {
+  #heroTitle {
     font-size: 4.2em;
   }
-  #text02 {
+  #heroSubtitle {
     font-size: 1.4rem;
   }
-  #text03 {
+  #introDescription {
     font-size: 1.4rem;
   }
-  #icons01 {
+  #socialIcons {
     grid-template-columns: repeat(3, max-content);
     font-size: 2.4rem;
     gap: 1.4rem 1.8rem;
@@ -1010,16 +1010,16 @@ hr:before {
     --padding-vertical: 1.5rem;
     --spacing: 2rem;
   }
-  #text01 {
+  #heroTitle {
     font-size: 3.9em;
   }
-  #text02 {
+  #heroSubtitle {
     font-size: 1.4rem;
   }
-  #text03 {
+  #introDescription {
     font-size: 1.4rem;
   }
-  #icons01 {
+  #socialIcons {
     grid-template-columns: repeat(3, max-content);
     font-size: 2.3rem;
     gap: 1.2rem 1.6rem;
@@ -1031,16 +1031,16 @@ hr:before {
     --padding-vertical: 1.5rem;
     --spacing: 2rem;
   }
-  #text01 {
+  #heroTitle {
     font-size: 3.7em;
   }
-  #text02 {
+  #heroSubtitle {
     font-size: 1.2rem;
   }
-  #text03 {
+  #introDescription {
     font-size: 1.2rem;
   }
-  #icons01 {
+  #socialIcons {
     grid-template-columns: repeat(3, max-content);
     font-size: 2.15rem;
     gap: 1rem 1.4rem;
@@ -1052,16 +1052,16 @@ hr:before {
     --padding-vertical: 1.5rem;
     --spacing: 2rem;
   }
-  #text01 {
+  #heroTitle {
     font-size: 3.5rem;
   }
-  #text02 {
+  #heroSubtitle {
     font-size: 1rem;
   }
-  #text03 {
+  #introDescription {
     font-size: 1rem;
   }
-  #icons01 {
+  #socialIcons {
     grid-template-columns: repeat(3, max-content);
     font-size: 2rem;
     gap: 0.8rem 1.2rem;
