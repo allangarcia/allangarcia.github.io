@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Update once sitemap.xml is available at your domain
 Sitemap: https://allangarcia.com/sitemap.xml
