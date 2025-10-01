@@ -460,18 +460,13 @@ body.is-instant:after {
   margin-bottom: 2.5rem !important;
 }
 #profileImage .frame {
-<<<<<<< HEAD
   width: 12rem;
   height: 12rem;
-=======
-  width: 9rem;
->>>>>>> 1ab1e67 (changing the numeric names on ids and classes to more meaniful names)
   border-radius: 1.5rem;
   border-color: #4a4a4a;
   border-style: solid;
   border-width: 1px;
   transition: none;
-<<<<<<< HEAD
   padding: 0.25rem;
 }
 #profileImage .frame img:first-child {
@@ -483,16 +478,6 @@ body.is-instant:after {
   object-fit: cover;
   border-radius: inherit !important;
 }
-=======
-}
-#profileImage .frame img:first-child {
-  border-radius: calc(1.5rem - 1px) !important;
-}
-#profileImage img {
-  border-radius: inherit !important;
-  padding: 0.25rem;
-}
->>>>>>> 1ab1e67 (changing the numeric names on ids and classes to more meaniful names)
 #profileImage .frame img {
   transition: none;
 }
