@@ -22,6 +22,9 @@
     <meta name="color-scheme" content="light only" />
 
     <link rel="manifest" href="/site.webmanifest" />
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image" href="/assets/images/profile.jpg" imagesrcset="/assets/images/profile.jpg 270w" imagesizes="270px" />
+
 
     <!-- Performance: speed up Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -167,7 +170,9 @@
       rel="stylesheet"
       type="text/css" />
 
-    <link rel="stylesheet" href="styles.css" type="text/css" />
+  <!-- Preload stylesheet and swap to avoid blocking; provide noscript fallback -->
+  <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/styles.css" /></noscript>
 
     <noscript>
       <style>
@@ -196,7 +201,7 @@
     </noscript>
   </head>
 
-  <body class="is-loading">
+  <body>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"

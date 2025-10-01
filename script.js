@@ -302,28 +302,8 @@
       window.onerror = null
     },
   }
-  var loaderTimeout = setTimeout(function () {
-    $body.classList.add('with-loader')
-  }, 500)
-  var $loaderElement = document.createElement('div')
-  $loaderElement.id = 'loader'
-  $body.appendChild($loaderElement)
-  var loadHandler = function () {
-    setTimeout(function () {
-      clearTimeout(loaderTimeout)
-      $body.classList.remove('is-loading')
-      $body.classList.add('is-playing')
-      setTimeout(function () {
-        $body.classList.remove('with-loader')
-        $body.classList.remove('is-playing')
-        $body.classList.add('is-ready')
-        setTimeout(function () {
-          $body.removeChild($loaderElement)
-        }, 1000)
-      }, 3375)
-    }, 100)
-  }
-  on('load', loadHandler)
+  // Performance: disable JS loader overlay and class juggling
+  // Removed loader to avoid delaying first paint and extra timers
   loadElements(document.body)
   // Toggle fixed footer behavior for #footerCopyright: fixed on long pages, normal on short pages
   ;(function () {
