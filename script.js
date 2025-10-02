@@ -309,6 +309,16 @@
   ;(function () {
     var el = document.getElementById('footerCopyright')
     if (!el) return
+    var rafId = null
+    var pending = false
+    var schedule = function () {
+      if (pending) return
+      pending = true
+      rafId = requestAnimationFrame(function () {
+        pending = false
+        update()
+      })
+    }
     var update = function () {
       // Consider full document height vs viewport height plus a small threshold
       var docHeight = Math.max(
@@ -327,15 +337,24 @@
       }
     }
     on('load', update)
-    on('resize', update)
-    // Observe mutations that might change height (e.g., fonts/images loading)
-    var mo = new MutationObserver(function () {
-      update()
-    })
-    mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true, characterData: true })
-    // Fallback check after initial animations/load
-    setTimeout(update, 500)
-    setTimeout(update, 1500)
+    on('resize', schedule)
+    // Prefer ResizeObserver for more efficient size tracking
+    if ('ResizeObserver' in window) {
+      var ro = new ResizeObserver(function () {
+        schedule()
+      })
+      ro.observe(document.documentElement)
+      ro.observe(document.body)
+    } else {
+      // Observe mutations that might change height (e.g., fonts/images loading) and throttle via rAF
+      var mo = new MutationObserver(function () {
+        schedule()
+      })
+      mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true, characterData: true })
+    }
+    // Fallback checks after initial animations/load
+    setTimeout(update, 300)
+    setTimeout(update, 1200)
   })()
   var style, sheet, rule
   style = document.createElement('style')

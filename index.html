@@ -22,11 +22,15 @@
     <meta name="color-scheme" content="light only" />
 
     <link rel="manifest" href="/site.webmanifest" />
-  <!-- Preload LCP hero image -->
-  <link rel="preload" as="image" href="/assets/images/profile.jpg" imagesrcset="/assets/images/profile.jpg 270w" imagesizes="270px" />
+    <!-- Preload LCP hero image -->
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/images/profile.jpg"
+      imagesrcset="/assets/images/profile.jpg 270w"
+      imagesizes="270px" />
 
-
-    <!-- Performance: speed up Google Fonts -->
+  <!-- Performance: speed up Google Fonts (preconnects + display=swap in href) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -170,9 +174,9 @@
       rel="stylesheet"
       type="text/css" />
 
-  <!-- Preload stylesheet and swap to avoid blocking; provide noscript fallback -->
-  <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="/styles.css" /></noscript>
+    <!-- Preload stylesheet and swap to avoid blocking; provide noscript fallback -->
+    <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="/styles.css" /></noscript>
 
     <noscript>
       <style>
@@ -426,6 +430,6 @@
         </div>
       </main>
     </div>
-    <script src="script.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript" defer></script>
   </body>
 </html>
