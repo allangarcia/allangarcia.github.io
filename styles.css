@@ -1165,12 +1165,43 @@ body::before {
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 
-/* Footer sits on glass, not a solid block */
+/* Footer sits on glass with subtle shine */
 #footerCopyright {
   color: #2a2a2a;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  background: transparent;
-  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.14) 100%);
+  -webkit-backdrop-filter: saturate(1.1) blur(12px);
+  backdrop-filter: saturate(1.1) blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 -8px 24px rgba(15, 23, 42, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+/* soft specular highlight */
+#footerCopyright::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+  pointer-events: none;
+}
+
+/* gentle gloss gradient bleeding from above */
+#footerCopyright::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    120% 80% at 50% -20%,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.08) 40%,
+    rgba(255, 255, 255, 0) 65%
+  );
+  pointer-events: none;
 }
 
 /* Fallback when backdrop-filter is unavailable */
@@ -1182,6 +1213,11 @@ body::before {
   #socialIcons li a {
     background: rgba(255, 255, 255, 0.9);
     border-color: rgba(0, 0, 0, 0.06);
+  }
+  #footerCopyright {
+    background: rgba(255, 255, 255, 0.95);
+    border-top-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 -6px 18px rgba(15, 23, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.6);
   }
 }
 
@@ -1222,6 +1258,21 @@ body::before {
   }
   #footerCopyright {
     color: #cbd5e1;
-    border-top-color: rgba(255, 255, 255, 0.15);
+    background: linear-gradient(180deg, rgba(17, 25, 40, 0.55) 0%, rgba(17, 25, 40, 0.35) 100%);
+    -webkit-backdrop-filter: saturate(1.05) blur(12px);
+    backdrop-filter: saturate(1.05) blur(12px);
+    border-top-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+  #footerCopyright::before {
+    background: radial-gradient(
+      120% 80% at 50% -20%,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.06) 40%,
+      rgba(255, 255, 255, 0) 65%
+    );
+  }
+  #footerCopyright::after {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
   }
 }
