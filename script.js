@@ -305,57 +305,7 @@
   // Performance: disable JS loader overlay and class juggling
   // Removed loader to avoid delaying first paint and extra timers
   loadElements(document.body)
-  // Toggle fixed footer behavior for #footerCopyright: fixed on long pages, normal on short pages
-  ;(function () {
-    var el = document.getElementById('footerCopyright')
-    if (!el) return
-    var rafId = null
-    var pending = false
-    var schedule = function () {
-      if (pending) return
-      pending = true
-      rafId = requestAnimationFrame(function () {
-        pending = false
-        update()
-      })
-    }
-    var update = function () {
-      // Consider full document height vs viewport height plus a small threshold
-      var docHeight = Math.max(
-        document.body.scrollHeight,
-        document.documentElement.scrollHeight,
-        document.body.offsetHeight,
-        document.documentElement.offsetHeight,
-        document.body.clientHeight,
-        document.documentElement.clientHeight
-      )
-      var vp = window.innerHeight
-      if (docHeight > vp + 16) {
-        el.classList.add('fixed-footer')
-      } else {
-        el.classList.remove('fixed-footer')
-      }
-    }
-    on('load', update)
-    on('resize', schedule)
-    // Prefer ResizeObserver for more efficient size tracking
-    if ('ResizeObserver' in window) {
-      var ro = new ResizeObserver(function () {
-        schedule()
-      })
-      ro.observe(document.documentElement)
-      ro.observe(document.body)
-    } else {
-      // Observe mutations that might change height (e.g., fonts/images loading) and throttle via rAF
-      var mo = new MutationObserver(function () {
-        schedule()
-      })
-      mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true, characterData: true })
-    }
-    // Fallback checks after initial animations/load
-    setTimeout(update, 300)
-    setTimeout(update, 1200)
-  })()
+  // Footer now uses CSS sticky-bottom via flexbox; no JS needed.
   var style, sheet, rule
   style = document.createElement('style')
   style.appendChild(document.createTextNode(''))

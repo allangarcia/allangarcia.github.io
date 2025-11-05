@@ -274,7 +274,8 @@ unloaded-script {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* Allow footer to push to bottom; content flows from top */
+  justify-content: flex-start;
   min-height: var(--viewport-height);
   overflow: hidden;
   position: relative;
@@ -293,7 +294,8 @@ unloaded-script {
   --border-radius-bl: 0;
   align-items: center;
   display: flex;
-  flex-grow: 0;
+  /* Let main take available space so footer sits at bottom on short pages */
+  flex-grow: 1;
   flex-shrink: 0;
   justify-content: center;
   max-width: 100%;
@@ -312,7 +314,8 @@ unloaded-script {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: var(--viewport-height);
+  /* Don't force full viewport height; prevents pushing footer off-screen */
+  min-height: auto;
   width: var(--width);
   z-index: 1;
   padding: var(--padding-vertical) var(--padding-horizontal);
@@ -577,19 +580,15 @@ p spoiler-text {
 #footerCopyright {
   color: #4a4a4a;
   font-family: 'Inter', sans-serif;
-  font-size: 0.5rem;
+  font-size: 0.875rem;
   line-height: 1.875;
   font-weight: 400;
   text-align: center;
-  margin-top: 0;
-}
-/* When page is long, fix footerCopyright to the viewport bottom */
-.fixed-footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 1rem;
-  z-index: 10;
+  margin-top: auto; /* Push to bottom on short pages */
+  width: 100%;
+  background: #f8f4f1;
+  border-top: 1px solid #e0dcd8;
+  padding: 1rem 1.5rem;
 }
 #footerCopyright a {
   text-decoration: underline;
